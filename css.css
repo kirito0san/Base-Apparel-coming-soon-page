@@ -147,6 +147,9 @@ input::placeholder {
   .one {
     gap: 17px;
   }
+  .attribution {
+    display: none;
+  }
 }
 @media (max-width: 912px) {
   .two {
