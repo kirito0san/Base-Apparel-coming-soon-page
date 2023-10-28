@@ -3,8 +3,6 @@ let arrow = document.querySelector(`.arrow`)
 let error = document.querySelector(`.error `)
 error.style.display = `none`
 let inp = document.getElementById(`inp_one`)
-
-
 let logo = document.querySelector(`.logo`)
 let h1 = document.querySelector(`h1`)
 let p = document.querySelector(`p`)
@@ -13,11 +11,6 @@ logo.style.cssText = `opacity:1;left:10px`
 h1.style.cssText = `opacity:1;left:0px`
 p.style.cssText = `opacity:1;left:0px`
 lap.style.cssText = `opacity:1;left:10px`
-
-
-
-
-
 arrow.onclick = () => {
     if (/\w+@gmail.com/ig.test(inp.value) && /\s/ig.test(inp.value) == false) {
         error.style.display = `none`
